@@ -14,9 +14,9 @@ session_start(); //Avisando o PHP que essa página trabalha com sessões.
 
         case 'add' ; // adiciona um produto ao carrinho.
 
-        $produto = $_GET();
-        $preco;
-        $qnt;
+        $produto = $_GET['carr_produto'];
+        $preco = $_GET['carr_preco'];
+        $qnt = $_GET['carr_qnt'];
         $total = $preco * $qnt;
 
         $dados_produtos_a_ser_add = array("produto" => $produto, "preco" => $preco, "quantidade" => $qnt,

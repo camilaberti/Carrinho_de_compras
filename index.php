@@ -7,7 +7,7 @@ session_start();
 <head>
   <meta charset = "utf-8" />
   <title>Carrinho de Compras </title>
-  <link href = "main.css" rel="stylesheet" type="text/css" />
+  <link href = "css/estilos.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
      <div id ="corpo">
@@ -20,7 +20,7 @@ session_start();
         <img src="img/produto1.jpg" />
         <p>Celular Motorola</p>
         <p>R$ 1.000,00</p>
-        <a href="carrinho.php?acao=adicionar">
+        <a href="carrinho_acoes.php?acao_carrinho=add&carr_produto=Celular Motorola&carr_preco=1000&carr_qnt=1">
         Comprar
         </a>
         </div>
